@@ -6,3 +6,6 @@
 ## v0.1.1 (01-10-2024)
 - Ajout du changelog
 - Footer.php
+
+## v0.1.2 (??-10-2024)
+- Structure de la page nouvelle journée

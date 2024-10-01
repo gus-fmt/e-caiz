@@ -23,7 +23,7 @@
             <div>Day1</div>
             <div>Day2</div>
         </section>
-        <?php include_once '../assets/footer.php'; ?>
     </main>    
+    <?php include_once '../assets/footer.php'; ?>
 </body>
 </html>
