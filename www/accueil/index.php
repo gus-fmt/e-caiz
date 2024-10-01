@@ -23,9 +23,7 @@
             <div>Day1</div>
             <div>Day2</div>
         </section>
-        <footer>
-            <p>&copy; 2024 e-caiz, Gustave Famanta</p>
-        </footer>
+        <?php include_once '../assets/footer.php'; ?>
     </main>    
 </body>
 </html>
