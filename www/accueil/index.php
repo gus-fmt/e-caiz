@@ -15,7 +15,7 @@
         <header>
             <nav class="navbar">
                 <a href="/accueil"><h1>e-caiz</h1></a>
-                <a href="/new-day">Nouvelle journée</a>
+                <a href="/newday">Nouvelle journée</a>
             </nav>
         </header>
         <section>

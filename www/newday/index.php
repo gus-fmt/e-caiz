@@ -8,14 +8,14 @@
     <meta name="keywords" content="caisse en ligne, e-caiz, gratuit, facile, open source, associations, petits commerçants, espèces, ventes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="refresh" content="5;url=../day/">
+    <meta http-equiv="refresh" content="3;url=../day/">
     <title>e-caiz - nouvelle journée</title>
     <link rel="stylesheet" href="/styles/global.css">
 </head>
 <body>
     <main>
         <section>
-            <h2>Création d'une nouvelle journée, veuillez patienter</h2>
+            <h2>Création d'une nouvelle journée, veuillez patienter...</h2>
         </section>
     </main>    
     <?php include_once '../assets/footer.php'; ?>
