@@ -1,3 +1,4 @@
+<!-- Cette page servira a indiquer à l'utilisateur la création d'une nouvelle journée puis de rediriger vers /day?day -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,21 +8,14 @@
     <meta name="keywords" content="caisse en ligne, e-caiz, gratuit, facile, open source, associations, petits commerçants, espèces, ventes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>e-caiz - Accueil</title>
+    <meta http-equiv="refresh" content="5;url=../day/">
+    <title>e-caiz - nouvelle journée</title>
     <link rel="stylesheet" href="/styles/global.css">
 </head>
 <body>
     <main>
-        <header>
-            <nav class="navbar">
-                <a href="/accueil"><h1>e-caiz</h1></a>
-                <a href="/new-day">Nouvelle journée</a>
-            </nav>
-        </header>
         <section>
-            <h2>Dernières journées :</h2>
-            <div>Day1</div>
-            <div>Day2</div>
+            <h2>Création d'une nouvelle journée, veuillez patienter</h2>
         </section>
     </main>    
     <?php include_once '../assets/footer.php'; ?>

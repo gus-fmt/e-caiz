@@ -11,5 +11,5 @@
 - Ajout du changelog
 - Footer.php
 
-### v0.1.2 (??-10-2024)
+### v0.1.2 (04-10-2024)
 - Structure de la page nouvelle journée
