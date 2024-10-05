@@ -21,30 +21,44 @@
                 </form>
             </nav>
         </header>
-        <aside>
-            <h2>Derniers achats :</h2>
-            <div>
-                <span>
-                    <h4>Nom des produits</h4>
-                    <p><strong>XX€ + YY€...</strong></p>
-                </span>
-                <p>XX€ + YY€...</p>
-            </div>
-            <div>
-                <span>
-                    <h4>Nom des produits</h4>
-                    <p><strong>XX€ + YY€...</strong></p>
-                </span>
-                <p>XX€ + YY€...</p>
-            </div>
-            <div>
-                <span>
-                    <h4>Nom des produits</h4>
-                    <p><strong>XX€ + YY€...</strong></p>
-                </span>
-                <p>XX€ + YY€...</p>
-            </div>
-        </aside>
+        <div class="plateau-contenair">
+            <aside>
+                <h2>Derniers achats :</h2>
+                <div>
+                    <span>
+                        <h4>Nom des produits</h4>
+                        <p><strong>XX€ + YY€...</strong></p>
+                    </span>
+                    <p>XX€ + YY€...</p>
+                </div>
+                <div>
+                    <span>
+                        <h4>Nom des produits</h4>
+                        <p><strong>XX€ + YY€...</strong></p>
+                    </span>
+                    <p>XX€ + YY€...</p>
+                </div>
+                <div>
+                    <span>
+                        <h4>Nom des produits</h4>
+                        <p><strong>XX€ + YY€...</strong></p>
+                    </span>
+                    <p>XX€ + YY€...</p>
+                </div>
+            </aside>
+            <section class="caisse-contenair">
+                <h2>Achat :</h2>
+                <p>Article 1, Article 2, Article 3</p>
+                <form action="">
+                    <label for="name0">Nom de l'article</label>
+                    <input type="text" name="name0" id="name0">
+                    <label for="prix0">Prix de l'article</label>
+                    <input type="text" name="prix0" id="prix0">
+                </form>
+                <input type="submit" value="+">
+                
+            </section>
+        </div>
     </main>    
     <?php include_once '../assets/footer.php'; ?>
 </body>

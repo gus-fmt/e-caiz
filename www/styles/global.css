@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #067ceb;
+    --primary-color: #0690eb;
     --secondary-color: #f7dc6f;
     --tertiary-color: #e5e5e5;
 }
@@ -45,4 +45,19 @@ a {
 footer {
     position: relative;
     bottom: 0;
+}
+
+.plateau-contenair {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    width: 200px;
+    padding: 0 10px;
+    border-right: var(--secondary-color) solid 5px;
+}
+
+.caisse-contenair {
+    padding: 0 10px;
 }
