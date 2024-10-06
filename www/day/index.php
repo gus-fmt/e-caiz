@@ -48,15 +48,17 @@
             </aside>
             <section class="caisse-contenair">
                 <h2>Achat :</h2>
-                <p>Article 1, Article 2, Article 3</p>
+                <p>Article 1, xx€ / Article 2, xx€ / Article 3, xx€</p>
+                <p>Total : XX€</p>
                 <form action="">
                     <label for="name0">Nom de l'article</label>
                     <input type="text" name="name0" id="name0">
                     <label for="prix0">Prix de l'article</label>
                     <input type="text" name="prix0" id="prix0">
                 </form>
-                <input type="submit" value="+">
-                
+                <form action="">
+                    <input type="submit" value="+">
+                </form>
             </section>
         </div>
     </main>    
