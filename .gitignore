@@ -16,6 +16,7 @@ Thumbs.db
 # Environment variables
 .env
 
-# Config folder
-config/
+# Others
+node_modules
+caisse.db
 

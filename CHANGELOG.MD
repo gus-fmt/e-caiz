@@ -11,5 +11,9 @@
 - Ajout du changelog
 - Footer.php
 
-### v0.2 (04-10-2024)
+### v0.2 (05-10-2024)
 - Structure de la page nouvelle journée
+
+### v0.3 (06-10-2024)
+- Mise en place de electron
+- Passage des fichiers php en html/js

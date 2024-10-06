@@ -1,5 +1,5 @@
 # e-caiz
-La caisse en ligne facile gratuite et open source pour les associations et petits commerçants
+Le logiciel de caisse (en ligne ou pas) facile d'utilisation, gratuit et open source pour les associations et petits commerçants
 
 ## Fonctionnalités prévues
 - Encaissement en espèces
