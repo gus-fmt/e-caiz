@@ -17,3 +17,7 @@
 ### v0.3 (06-10-2024)
 - Mise en place de electron
 - Passage des fichiers php en html/js
+
+### v0.4 (07-10-2024)
+- Rassemblement des pages html en une seule page
+- Changement du système de navigation : SPA

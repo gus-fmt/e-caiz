@@ -30,13 +30,6 @@ main {
     overflow-y: scroll;
 }
 
-/* Gérer l'affichage lors de l'ouverture de l'app, à laisser au début */
-
-.accueil {
-    display: flex;
-    flex-direction: column;
-}
-
 .navbar {
     display: flex;
     flex-direction: row;
@@ -69,10 +62,4 @@ aside {
 
 .caisse-contenair {
     padding: 0 10px;
-}
-
-/* Gérer l'affichage lors de l'ouverture de l'app, à laisser à la fin */
-
-.day, .newday {
-    display: none;
 }

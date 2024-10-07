@@ -17,27 +17,29 @@
         <link rel="stylesheet" href="styles/global.css" />
     </head>
     <body>
-        <main>
+        <main id="accueil" style="display: block;">
             <!-- Accueil -->
-            <nav class="navbar accueil">
-                <a href="/accueil"><h1>e-caiz</h1></a>
-                <a href="/newday">Nouvelle journée</a>
+            <nav class="navbar">
+                <a href="#" onclick="showPage('accueil')"><h1>e-caiz</h1></a>
+                <a href="#" onclick="showPage('newday'); setTimeout(() => {showPage('day')}, 3000);">Nouvelle journée</a>
             </nav>
-            <section class="accueil">
+            <section>
                 <h2>Dernières journées :</h2>
                 <div>Day1</div>
                 <div>Day2</div>
             </section>
             <!-- Fin de l'accueil -->
+        </main>
+        <main id="day" style="display: none;">
             <!-- Day -->
-            <nav class="navbar day">
-                <a href="/accueil"><h1>e-caiz - retour à l'accueil</h1></a>
+            <nav class="navbar">
+                <a href="#" onclick="showPage('accueil')"><h1>e-caiz - retour à l'accueil</h1></a>
                 <form action="">
-                    <label for="day">Day</label>
-                    <input type="date" name="day" id="day" />
+                    <label for="jour">Day</label>
+                    <input type="date" name="jour" id="jour" />
                 </form>
             </nav>
-            <div class="plateau-contenair day">
+            <div class="plateau-contenair">
                 <aside>
                     <h2>Derniers achats :</h2>
                     <div>
@@ -62,7 +64,7 @@
                         <p>XX€ + YY€...</p>
                     </div>
                 </aside>
-                <section class="caisse-contenair day">
+                <section class="caisse-contenair">
                     <h2>Achat :</h2>
                     <p>Article 1, xx€ / Article 2, xx€ / Article 3, xx€</p>
                     <p>Total : XX€</p>
@@ -78,6 +80,8 @@
                 </section>
             </div>
             <!-- Fin de Day -->
+        </main>
+        <main id="newday" style="display: none;">
             <!-- Newday -->
             <section class="newday">
                 <h2>Création d'une nouvelle journée, veuillez patienter...</h2>
@@ -89,5 +93,7 @@
             <p>&copy; 2024 e-caiz. Gustave Famanta, Licence MIT.</p>
         </footer>
     <!-- Fin du footer -->
+    <script src="scripts/showPage.js"></script>
+
     </body>
 </html>
