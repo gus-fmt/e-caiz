@@ -27,10 +27,19 @@ main {
     max-height: 80%;
     height: 80vh;
     margin: 0;
+    overflow-y: scroll;
+}
+
+/* Gérer l'affichage lors de l'ouverture de l'app, à laisser au début */
+
+.accueil {
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -60,4 +69,10 @@ aside {
 
 .caisse-contenair {
     padding: 0 10px;
+}
+
+/* Gérer l'affichage lors de l'ouverture de l'app, à laisser à la fin */
+
+.day, .newday {
+    display: none;
 }
