@@ -21,3 +21,7 @@
 ### v0.4 (07-10-2024)
 - Rassemblement des pages html en une seule page
 - Changement du système de navigation : SPA
+
+### v0.5 (09-10-2024)
+- Implantation de SQlite
+- Création d'une nouvelle journée au niveau du backend
