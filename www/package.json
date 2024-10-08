@@ -2,10 +2,13 @@
   "devDependencies": {
     "electron": "^32.1.2"
   },
-  "name": "ton-projet-caisse",
-  "version": "1.0.0",
+  "name": "e-caiz",
+  "version": "0.5.0",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
   }
 }
