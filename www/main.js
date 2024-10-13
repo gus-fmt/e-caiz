@@ -38,7 +38,10 @@ app.whenReady().then(() => {
                 console.error(`Erreur lors de la création de la base de données: ${err.message}`);
             } else {
                 console.log('Nouvelle base de données créée.');
-                db.run(`CREATE TABLE journaux (id INTEGER PRIMARY KEY AUTOINCREMENT, date TEXT NOT NULL)`);
+                db.run(`CREATE TABLE jours (id INTEGER PRIMARY KEY AUTOINCREMENT, date DATE NOT NULL, somme REAL)`);
+                db.run(`CREATE TABLE groupes (id INTEGER PRIMARY KEY AUTOINCREMENT, jour INTEGER NOT NULL, groupe REAL)`);
+                db.run(`CREATE TABLE articles (id INTEGER PRIMARY KEY AUTOINCREMENT, jour INTEGER NOT NULL, groupe REAL)`);
+
             }
         });
     } else {
@@ -48,7 +51,7 @@ app.whenReady().then(() => {
                 console.error(`Erreur lors de l'ouverture de la base de données: ${err.message}`);
             } else {
                 console.log('Base de données existante ouverte.');
-                db.all(`SELECT * FROM journaux`, [], (err, rows) => {
+                db.all(`SELECT * FROM jours`, [], (err, rows) => {
                     if (err) {
                         console.error(`Erreur lors de la récupération des données: ${err.message}`);
                     } else {
