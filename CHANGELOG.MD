@@ -22,6 +22,12 @@
 - Rassemblement des pages html en une seule page
 - Changement du système de navigation : SPA
 
-### v0.5 (09-10-2024)
+### v0.5 (14-10-2024)
 - Implantation de SQlite
-- Création d'une nouvelle journée au niveau du backend
+- Création de la structure de la bdd
+
+### v0.6 (16-10-2024)
+- Changements structure HTML CSS
+
+### v0.7 (17-10-2024)
+- Création d'une nouvelle journée en backend

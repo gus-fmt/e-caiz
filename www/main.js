@@ -39,8 +39,8 @@ app.whenReady().then(() => {
             } else {
                 console.log('Nouvelle base de données créée.');
                 db.run(`CREATE TABLE jours (id INTEGER PRIMARY KEY AUTOINCREMENT, date DATE NOT NULL, somme REAL)`);
-                db.run(`CREATE TABLE groupes (id INTEGER PRIMARY KEY AUTOINCREMENT, jour INTEGER NOT NULL, groupe REAL)`);
-                db.run(`CREATE TABLE articles (id INTEGER PRIMARY KEY AUTOINCREMENT, jour INTEGER NOT NULL, groupe REAL)`);
+                db.run(`CREATE TABLE groupes (id INTEGER PRIMARY KEY AUTOINCREMENT, jour INTEGER NOT NULL, somme REAL, Total REAL, reduction REAL)`);
+                db.run(`CREATE TABLE articles (id INTEGER PRIMARY KEY AUTOINCREMENT,  name TEXT, groupe REAL NOT NULL, price REAL)`);
 
             }
         });
