@@ -17,19 +17,26 @@
         <link rel="stylesheet" href="styles/global.css" />
     </head>
     <body>
+
         <main id="accueil" style="display: block;">
-            <!-- Accueil -->
+            <!-- Accueil --> 
             <nav class="navbar">
                 <a href="#" onclick="showPage('accueil')"><h1>e-caiz</h1></a>
-                <a href="#" onclick="showPage('newday'); redirectAfterDelay('day')">Nouvelle journée</a>
+                <a class="button1" href="#" onclick="showPage('newday'); redirectAfterDelay('day')">Nouvelle journée</a>
             </nav>
-            <section>
-                <h2>Dernières journées :</h2>
-                <div>Day1</div>
-                <div>Day2</div>
-            </section>
+            <div class="content">
+                <aside>
+                    <h2>Dernières journées :</h2>
+                    <div>Day1</div>
+                    <div>Day2</div>
+                </aside>
+                <section>
+                    <h1>Accueil</h1>
+                </section>
+            </div>
             <!-- Fin de l'accueil -->
         </main>
+
         <main id="day" style="display: none;">
             <!-- Day -->
             <nav class="navbar">
@@ -39,7 +46,7 @@
                     <input type="date" name="jour" id="jour" />
                 </form>
             </nav>
-            <div class="plateau-contenair">
+            <div class="content">
                 <aside>
                     <h2>Derniers achats :</h2>
                     <div>
