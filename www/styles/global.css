@@ -81,7 +81,7 @@ aside {
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
-    transition: 0.3s;
+    transition: 0.2s;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -103,6 +103,8 @@ aside h3 {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 0 10px;
     margin-top: 0;
@@ -129,3 +131,28 @@ section {
     color: var(--secondary-color);
 }
 
+.centered-x {
+    display: flex;
+    align-items: center;
+}
+
+.accueil-option {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 0;
+    margin: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    color: var(--primary-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+.accueil-option:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
