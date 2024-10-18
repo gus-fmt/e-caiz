@@ -4,6 +4,10 @@
     --tertiary-color: #e5e5e5;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #fafafa;
     box-sizing: border-box;
@@ -27,11 +31,11 @@ main {
     max-height: 80%;
     height: 80vh;
     margin: 0;
-    overflow-y: overlay;
 }
 
 .navbar {
     display: flex;
+    height: 8vh;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -53,21 +57,56 @@ footer {
 .content {
     display: flex;
     flex-direction: row;
-    height: 95%;
-
+    height: 72vh;
 }
 
 aside {
-    height: 85%;
-    width: 250px;
+    width: 325px;
     padding: 0 10px;
     margin-top: 0;
     border-right: var(--secondary-color) solid 5px;
+    overflow-y: overlay;
+    height: 100%;
+}
+
+.aside-element {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.aside-element:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 aside h2 {
     margin-top: 0;
     padding-top: 10px;
+}
+
+aside h3 {
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+section {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 0;
+    margin: 0;
 }
 
 .button1 {
