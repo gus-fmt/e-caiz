@@ -23,6 +23,6 @@ function showUnderPage(pageId) {
     // Afficher l'élément avec l'id donné
     let page = document.getElementById(pageId);
     if (page) { // Vérifie que l'élément existe
-        page.style.display = 'block';
+        page.style.display = 'flex';
     }
 }
