@@ -66,7 +66,7 @@ aside {
     margin-top: 0;
     border-right: var(--secondary-color) solid 5px;
     overflow-y: overlay;
-    height: 100%;
+    height: 71vh;
 }
 
 .aside-element {

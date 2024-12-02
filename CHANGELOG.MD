@@ -26,8 +26,9 @@
 - Implantation de SQlite
 - Création de la structure de la bdd
 
-### v0.6 (18-10-2024)
-- Changements structure HTML CSS
+### v0.6 (02-12-2024)
+- Structure HTML CSS paramètres
+- Changements stylistiques
 
-### v0.7 (19-10-2024)
+### v0.7 (04-12-2024)
 - Création d'une nouvelle journée en backend

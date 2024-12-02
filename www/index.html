@@ -51,7 +51,7 @@
                 </aside>
                 <section class="centered-x">
                     <h1>Accueil</h1>
-                    <a href="#" onclick="showPage('day')">
+                    <a href="#" onclick="showPage('settings')">
                         <div class="accueil-option">paramètres</div>
                     </a>
                     <a href="#" onclick="showPage('day')">
@@ -118,6 +118,36 @@
             <section class="newday">
                 <h2>Création d'une nouvelle journée, veuillez patienter...</h2>
             </section>
+            <!-- Fin de Newday -->
+        </main>
+        <main id="settings" style="display: none;">
+            <!-- Settings -->
+            <nav class="navbar">
+                <a href="#" onclick="showPage('accueil')"><h1>e-caiz - retour à l'accueil</h1></a>
+                <h2>Paramètres</h2>
+            </nav>
+            <aside>
+                <h2>Paramètres :</h2>
+                <div>
+                    <a href="#" onclick="showUnderPage('p-affichage')">
+                        <span>
+                            <h4>Affichage</h4>
+                            <p>Modifier le thème...</p>
+                        </span>
+                    </a>
+                </div>
+            </aside>
+            <article id="p-affichage" style="display: none;">
+                <h2>Affichage</h2>
+                <form action="">
+                    <label for="theme">Thème</label>
+                    <select name="theme" id="theme">
+                        <option value="light">Clair</option>
+                        <option value="dark">Sombre</option>
+                    </select>
+                </form>
+            </article>
+
             <!-- Fin de Newday -->
         </main>
     <!-- Footer -->

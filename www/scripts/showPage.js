@@ -15,3 +15,14 @@ function redirectAfterDelay(pageId, delay = 3000) {
         showPage(pageId);
     }, delay);
 }
+
+function showUnderPage(pageId) {
+    // Cacher tous les éléments <article>
+    document.querySelectorAll('article').forEach(article => article.style.display = 'none');
+    
+    // Afficher l'élément avec l'id donné
+    let page = document.getElementById(pageId);
+    if (page) { // Vérifie que l'élément existe
+        page.style.display = 'block';
+    }
+}
