@@ -27,7 +27,7 @@
 - Création de la structure de la bdd
 
 ### v0.6 (02-12-2024)
-- Structure HTML CSS paramètres
+- Structure HTML CSS
 - Changements stylistiques
 
 ### v0.7 (04-12-2024)
